@@ -1,0 +1,21 @@
+<mj-raw>
+    <link rel="shortcut icon" type="image/x-icon" href="https://anwert.io/favicon.ico">
+</mj-raw>
+
+<mj-font name="Europa" href="https://use.typekit.net/zwz5wbu.css" />
+
+<mj-attributes>
+  <mj-class name="body" background-color="#ffffff" />
+  <mj-class name="footer" background-color="#f3f3f3" />
+  <mj-all font-family="Europa, Helvetica, Arial, sans-serif" font-size="14px" line-height="21px" color="#000" padding="0" margin="0"/>
+</mj-attributes>
+
+<mj-style inline="inline">
+
+
+  a {
+    color: #005aab;
+  }
+
+
+</mj-style>

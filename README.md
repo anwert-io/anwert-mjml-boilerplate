@@ -8,9 +8,9 @@ Newsletter sources for MailJet
 `npm install`
 
 
-## Generate HTML
+## MJML to HTML
 
-`./node_modules/gulp/bin/gulp.js mjml`
+`./node_modules/gulp/bin/gulp.js compile`
 
 
 ## Live Update on edit

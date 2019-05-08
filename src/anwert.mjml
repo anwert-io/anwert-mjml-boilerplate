@@ -11,8 +11,9 @@
 
     <mj-section padding="20px 0px 5px 0px">
       <mj-column>
-        <mj-text font-size="12px" align="right" color="#c2c2c2">
-          Anwert MJML Boilerplate
+        <mj-text>
+          <h1>Anwert MJML Boilerplate</h1>
+          
         </mj-text>
       </mj-column>
     </mj-section>

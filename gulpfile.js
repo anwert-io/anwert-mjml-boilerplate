@@ -8,29 +8,35 @@ const 	gulp           = require('gulp'),
     		mjml           = require('gulp-mjml'),
     		watch          = require('gulp-watch'),
         fileinclude    = require('gulp-file-include'),
-        clean          = require('gulp-clean');
+        clean          = require('gulp-clean'),
+        imagemin       = require('gulp-imagemin');
 
 var mjmlEngine = require('mjml').default
 var config = {
     assetsDir: './assets',
-    htmlDir: './html',
-    mjmlDir: './mjml',
+    distDir: './dist',
+    srcDir: './src',
     mjmlPattern: '*.mjml'
 };
 
 
 function cleanHtml() {
-  return gulp.src([config.htmlDir]).pipe(clean());
+  return gulp.src([config.distDir]).pipe(clean());
 }
 
-
-function copyAssets() {
-  gulp.src([config.assetsDir + '/**/*']).pipe(gulp.dest(config.htmlDir + '/assets'));
+function copyAssets(optimize = false) {
+  gulp.src([config.assetsDir + '/**/*']).pipe(gulp.dest(config.distDir + '/assets'));
+  gulp.src(config.distDir + '/assets/images/*')
+        .pipe(imagemin([
+          imagemin.jpegtran({progressive: true}),
+         imagemin.optipng({optimizationLevel: 5})
+        ]))
+        .pipe(gulp.dest(config.distDir + '/assets/images'))
 }
 
 
 function watchFiles() {
-  gulp.watch(config.mjmlDir + '/**/' + config.mjmlPattern, mjml2html)
+  gulp.watch(config.srcDir + '/**/' + config.mjmlPattern, mjml2html)
 }
 
 function handleError (err) {
@@ -41,14 +47,14 @@ function handleError (err) {
 function mjml2html() {
   copyAssets()
 
-  return gulp.src(config.mjmlDir + '/' + config.mjmlPattern)
+  return gulp.src(config.srcDir + '/' + config.mjmlPattern)
     .pipe(fileinclude({prefix: '@@', basepath: '@file'}))
     .pipe(mjml(mjmlEngine, {minify: true, validationLevel: 'strict'}))
     .on('error', handleError)
-    .pipe(gulp.dest('./html'))
+    .pipe(gulp.dest(config.distDir))
 }
 
 
-gulp.task('mjml', mjml2html);
+gulp.task('compile', mjml2html);
 gulp.task('watch', gulp.parallel(watchFiles));
 gulp.task('clean', cleanHtml);
