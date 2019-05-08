@@ -1,0 +1,21 @@
+<mjml version="4.2">
+  <mj-head>
+    @@include('./includes/styles.mjml')
+
+    <mj-title>Anwert MJML Boilerplate</mj-title>
+    <mj-preview>Anwert MJML Boilerplate</mj-preview>
+
+  </mj-head>
+
+  <mj-body background-color="rgb(244,	244,	244)">
+
+    <mj-section padding="20px 0px 5px 0px">
+      <mj-column>
+        <mj-text font-size="12px" align="right" color="#c2c2c2">
+          Anwert MJML Boilerplate
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
