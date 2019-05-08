@@ -33,13 +33,18 @@ function watchFiles() {
   gulp.watch(config.mjmlDir + '/**/' + config.mjmlPattern, mjml2html)
 }
 
+function handleError (err) {
+  console.log(err.toString());
+  this.emit('end');
+}
 
 function mjml2html() {
   copyAssets()
 
   return gulp.src(config.mjmlDir + '/' + config.mjmlPattern)
     .pipe(fileinclude({prefix: '@@', basepath: '@file'}))
-    .pipe(mjml(mjmlEngine, {minify: true}))
+    .pipe(mjml(mjmlEngine, {minify: true, validationLevel: 'strict'}))
+    .on('error', handleError)
     .pipe(gulp.dest('./html'))
 }
 
