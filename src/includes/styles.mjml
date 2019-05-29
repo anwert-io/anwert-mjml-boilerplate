@@ -7,11 +7,35 @@
 <mj-attributes>
   <mj-class name="body" background-color="#ffffff" />
   <mj-class name="footer" background-color="#f3f3f3" />
-  <mj-all font-family="Europa, Helvetica, Arial, sans-serif" font-size="14px" line-height="21px" color="#000" padding="0" margin="0"/>
+  <mj-class name="cta-btn" background-color="#ef4d3f" color="#fff" />
+  <mj-class name="section" padding="20px 0px" />
+  <mj-class name="footer" background-color="#dddddc" />
+  <mj-class name="section-divider" width="600px" border-width="1px" border-style="solid" border-color="#005aab" />
+  
+  <mj-class name="anwert-carousel" tb-hover-border-color="#ef4d3f" tb-selected-border-color="#ef4d3f" />
+  
+  <mj-accordion-element icon-wrapped-url="http://i.imgur.com/Xvw0vjq.png" icon-unwrapped-url="http://i.imgur.com/KKHenWa.png" icon-height="24px" icon-width="24px" />
+  <mj-accordion-title font-family="Roboto, Open Sans, Helvetica, Arial, sans-serif" background-color="#fff" color="#031017" padding="15px" font-size="20px" />
+  <mj-accordion-text font-family="Open Sans, Helvetica, Arial, sans-serif" background-color="#fafafa" padding="15px" color="#505050" font-size="18px" />
+
+  <mj-all font-family="Europa, Helvetica, Arial, sans-serif" font-size="18px" line-height="26px" color="#000" padding="0" margin="0"/>
 </mj-attributes>
 
 <mj-style inline="inline">
 
+  h1 {
+    font-size: 36px;
+    line-height: 50.4px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
 
   a {
     color: #005aab;

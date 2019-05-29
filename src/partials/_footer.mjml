@@ -1,0 +1,20 @@
+    <mj-section mj-class="section footer">
+      <mj-column>
+        <mj-image align="center" src="https://anwert.io/wp-content/uploads/2018/04/anwert-logo-black.png" alt="Anwert" padding="20px 0" width="190px" />
+        
+        <mj-social icon-size="24px" mode="horizontal" padding="20px 0">
+          <mj-social-element 
+            name="linkedin-noshare"
+            background-color="#333"
+            href="https://www.linkedin.com/company/anwert/"></mj-social-element>
+          <mj-social-element 
+            name="xing-noshare"
+            background-color="#333"
+            href="https://www.xing.com/companies/anwertunternehmensberatung"></mj-social-element>
+        </mj-social>
+
+        <mj-text align="center" padding="20px 0">
+          © 2019 \ Anwert \ Alle Rechte vorbehalten.
+        </mj-text>
+      </mj-column>
+    </mj-section>

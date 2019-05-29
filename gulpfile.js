@@ -1,6 +1,5 @@
 // TODOS:
-// - clean, optimize images & file names
-// - 
+// - Validation
 
 "use strict";
 
@@ -9,7 +8,8 @@ const 	gulp           = require('gulp'),
     		watch          = require('gulp-watch'),
         fileinclude    = require('gulp-file-include'),
         clean          = require('gulp-clean'),
-        imagemin       = require('gulp-imagemin');
+        imagemin       = require('gulp-imagemin'),
+        livereload = require('gulp-livereload');
 
 var mjmlEngine = require('mjml').default
 var config = {
@@ -36,6 +36,7 @@ function copyAssets(optimize = false) {
 
 
 function watchFiles() {
+  livereload.listen();
   gulp.watch(config.srcDir + '/**/' + config.mjmlPattern, mjml2html)
 }
 
@@ -52,6 +53,7 @@ function mjml2html() {
     .pipe(mjml(mjmlEngine, {minify: true, validationLevel: 'strict'}))
     .on('error', handleError)
     .pipe(gulp.dest(config.distDir))
+    .pipe(livereload());
 }
 
 
