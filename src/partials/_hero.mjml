@@ -1,0 +1,17 @@
+    <mj-section mj-class="section hero">
+      <mj-column>
+        <mj-image
+          src="https://anwert.io/wp-content/uploads/2018/04/Anwert-Logo-Full-White.png"
+          alt="Anwert"
+          width="192px"
+          align="left" />
+
+          <mj-image
+          border="1px dashed #333"
+          src=""
+          alt=""
+          width="350px"
+          height="350px"
+          align="right" />
+      </mj-column>
+    </mj-section>

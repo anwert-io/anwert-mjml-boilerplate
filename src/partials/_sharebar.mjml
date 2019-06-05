@@ -1,0 +1,41 @@
+    <mj-section mj-class="section share-bar">
+    <mj-group>
+      <mj-column width="50%">
+        <mj-text>
+          <div style="padding-bottom:20px">
+            Did you like this?
+          </div>
+          <img style="display: inline-block;border: 1px dashed #000; margin-right: 10px; height: 30px !important" src="" alt="" width="30px" />
+          <img style="display: inline-block;border: 1px dashed #000; height: 30px !important" src="" alt="" width="30px" />
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%">
+        <mj-text>
+          Share this:
+        </mj-text>
+        <mj-social align="left" padding="20px 0">
+          <mj-social-element
+            padding="0 10px 0 0" 
+            name="facebook"
+            background-color="#333"
+            href=""></mj-social-element>
+          <mj-social-element 
+            padding="0 10px 0 0"
+            name="twitter"
+            background-color="#333"
+            href=""></mj-social-element>
+          <mj-social-element 
+            padding="0 10px 0 0"
+            name="linkedin"
+            background-color="#333"
+            href=""></mj-social-element>
+          <mj-social-element 
+            padding="0 10px 0 0"
+            name="xing"
+            background-color="#333"
+            href=""></mj-social-element>
+        </mj-social>
+      </mj-column>
+      </mj-group>
+    </mj-section>    

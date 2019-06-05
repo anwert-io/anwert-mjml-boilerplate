@@ -6,17 +6,21 @@
 
 <mj-attributes>
   <mj-class name="body" background-color="#ffffff" />
-  <mj-class name="footer" background-color="#f3f3f3" />
-  <mj-class name="cta-btn" background-color="#ef4d3f" color="#fff" />
-  <mj-class name="section" padding="20px 0px" />
-  <mj-class name="footer" background-color="#dddddc" />
-  <mj-class name="section-divider" width="600px" border-width="1px" border-style="solid" border-color="#005aab" />
-  
-  <mj-class name="anwert-carousel" tb-hover-border-color="#ef4d3f" tb-selected-border-color="#ef4d3f" />
-  
+  <mj-class name="hero" background-color="#005aab" full-width="full-width" />
+  <mj-class name="footer" background-color="#dddddc" full-width="full-width" padding="60px 0" />
+  <mj-class name="share-bar" background-color="#C4C4C3" full-width="full-width" />
+
+  <mj-class name="cta-btn" background-color="#ef4d3f" border-radius="0" color="#fff" />
+  <mj-class name="section" padding="30px 10px" />
+  <mj-class name="section-divider" css-class="section-divider"  border-width="1px" border-style="solid" border-color="#005aab" />
+    
+  <mj-accordion border="0"/>
   <mj-accordion-element icon-wrapped-url="http://i.imgur.com/Xvw0vjq.png" icon-unwrapped-url="http://i.imgur.com/KKHenWa.png" icon-height="24px" icon-width="24px" />
-  <mj-accordion-title font-family="Roboto, Open Sans, Helvetica, Arial, sans-serif" background-color="#fff" color="#031017" padding="15px" font-size="20px" />
-  <mj-accordion-text font-family="Open Sans, Helvetica, Arial, sans-serif" background-color="#fafafa" padding="15px" color="#505050" font-size="18px" />
+  <mj-accordion-title background-color="#fff" padding="15px 0" />
+  <mj-accordion-text background-color="#fafafa" padding="15px" font-size="16px" />
+  
+  <mj-social icon-size="24px" border-radius="0" mode="horizontal" icon-padding="3px" />
+  <mj-social-element background-color="#333" />
 
   <mj-all font-family="Europa, Helvetica, Arial, sans-serif" font-size="18px" line-height="26px" color="#000" padding="0" margin="0"/>
 </mj-attributes>
@@ -24,11 +28,13 @@
 <mj-style inline="inline">
 
   h1 {
+    margin-top: 0;
     font-size: 36px;
     line-height: 50.4px;
   }
 
   h2 {
+    margin-top: 0;
     font-size: 24px;
     line-height: 30px;
   }
@@ -41,5 +47,66 @@
     color: #005aab;
   }
 
+  ul {
+    margin: 0;
+  }
+
+  .mj-accordion-title {
+    border-bottom: 3px solid #ef4d3f;
+  }
+
+  .footer-anschrift {
+    margin: 20px 0;
+  }
+
+  .footer-links {
+    letter-spacing: .07em;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer-links li {
+    margin-bottom: 18px;
+  }
+
+  .footer-links a { 
+    color: #000;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+  }
+
+</mj-style>
+
+<mj-style>
+  @media only screen and (max-width: 479px) {
+    .mj-column-per-50 > table > tbody > tr > td {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      padding: 1em 0 !important;
+    }
+  }
+
+  .footer-links a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+  }
+
+  .footer-links a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
 
 </mj-style>

@@ -1,0 +1,12 @@
+<!-- 
+    Custom Divider
+    mj-divider doesn't allow max-width to be defined
+ -->
+
+<mj-raw>
+    <p style="border-top:solid 1px #005aab;
+              font-size:1;
+              margin:0px auto;
+              max-width: 100%;
+              width:600px;"></p>
+</mj-raw>

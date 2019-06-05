@@ -1,3 +1,5 @@
+// Headline Capitalization
+// AP Style
 <mjml version="4.2">
   <mj-head>
     @@include('./includes/styles.mjml')
@@ -8,40 +10,64 @@
   </mj-head>
 
   <mj-body background-color="#fff">
-
-    <mj-section mj-class="section">
-      <mj-column>
-        <mj-image
-          src="https://anwert.io/wp-content/uploads/2018/04/Anwert-Logo-Full.png"
-          alt="Anwert"
-          width="192px"
-          align="center" />
-      </mj-column>
-    </mj-section>
+    @@include('./partials/_hero.mjml')
 
     <mj-section mj-class="section">
       <mj-column>
         <mj-text>
-          <h1>Do you want Emails as nice as this one?</h1>
+          <h1>Do You Want Emails as Nice as This One?</h1>
           <p>
             Id in magna deserunt deserunt excepteur officia sit. Labore sint laborum proident duis enim incididunt amet commodo et id ipsum est adipisicing enim. Irure id sint sint enim dolor nostrud amet. Enim ex elit qui adipisicing pariatur ipsum. Laborum et do esse Lorem in adipisicing ex reprehenderit sint.
           </p>
         </mj-text>
-        <mj-button mj-class="cta-btn" href="mail:hello@anwert.io">
-          Contact us!
+        <mj-button mj-class="cta-btn" href="github.com">
+          View Boilerplate on Github 
          </mj-button>
       </mj-column>
     </mj-section>
 
-    <mj-divider mj-class="section-divider" />
+    @@include('./partials/_divider.mjml')
+
+    <mj-section mj-class="section">
+      <mj-column padding-right="10%" width="50%">
+        <mj-image
+          padding-bottom="15px"
+          src="assets/images/anwert-mindnode-project.png"
+          alt="" />
+        <mj-text>
+          <h2>Mindnode</h2>
+          <p>
+            Exercitation reprehenderit eu cupidatat do fugiat. Enim ad minim do dolore non culpa quis ea cillum. Incididunt exercitation qui elit sit qui pariatur ad officia dolor aliqua ullamco nulla mollit. Duis duis magna excepteur veniam aute ex. Consequat id commodo nulla commodo amet Lorem. Amet nulla elit velit cillum aute est veniam proident amet deserunt.
+          </p>
+          <a href="anwert.io" target="_blank">Continue Reading</a>
+        </mj-text>
+      </mj-column>
+      <mj-column padding-left="10%" width="50%">
+        <mj-image
+          padding-bottom="15px"
+          src="assets/images/anwert-tmf-project.png"
+          alt="" />
+        <mj-text>
+          <h2>TMF</h2>
+          <p>
+            Exercitation reprehenderit eu cupidatat do fugiat. Enim ad minim do dolore non culpa quis ea cillum. Incididunt exercitation qui elit sit qui pariatur ad officia dolor aliqua ullamco nulla mollit. Duis duis magna excepteur veniam aute ex. Consequat id commodo nulla commodo amet Lorem. Amet nulla elit velit cillum aute est veniam proident amet deserunt.
+          </p>
+          <a href="anwert.io" target="_blank">Continue Reading</a>
+        </mj-text>
+      </mj-column>
+      
+    </mj-section>
+
+    @@include('./partials/_divider.mjml')
 
     <mj-section mj-class="section">
       <mj-column width="100%">
         <mj-text>
-          <h2>Create better Emails</h2>
+          <h2>Create Better Emails</h2>
         </mj-text>
       </mj-column>
       <mj-column padding-right="2.5%" width="50%">
+        <mj-image border="1px dashed #000" src="" alt="" width="50px" height="50px" />
         <mj-text>
           <h3>Developer Friendly</h3>
           <p>
@@ -51,6 +77,7 @@
       </mj-column>
 
       <mj-column padding-left="2.5%" width="50%">
+        <mj-image border="1px dashed #000" src="" alt="" width="50px" height="50px" />
         <mj-text>
           <h3>Image Optimization</h3>
           <p>
@@ -60,6 +87,7 @@
       </mj-column>
 
       <mj-column padding-right="2.5%" width="50%">
+        <mj-image border="1px dashed #000" src="" alt="" width="50px" height="50px" />
         <mj-text>
           <h3>LiveReload</h3>
           <p>
@@ -69,6 +97,7 @@
       </mj-column>
 
       <mj-column padding-left="2.5%" width="50%">
+        <mj-image border="1px dashed #000" src="" alt="" width="50px" height="50px" />
         <mj-text>
           <h3>Validation</h3>
           <p>
@@ -78,63 +107,99 @@
       </mj-column>
     </mj-section>
 
-    <mj-divider mj-class="section-divider" />
+    @@include('./partials/_divider.mjml')
 
     <mj-section mj-class="section">
       <mj-column>
         <mj-text>
-          <h2>Create rich layouts</h2>
+          <h2>Why we ❤️ MJML</h2>
         </mj-text>
 
         <mj-accordion>
           <mj-accordion-element>
-            <mj-accordion-title>Why use an accordion?</mj-accordion-title>
+            <mj-accordion-title>It's responsive</mj-accordion-title>
             <mj-accordion-text>
-              <span style="line-height:20px">
-                Because emails with a lot of content are most of the time a very bad experience on mobile, mj-accordion comes handy when you want to deliver a lot of information in a concise way.
-              </span>
+              <p>
+                Ad labore sint aliquip culpa.
+              </p>
             </mj-accordion-text>
           </mj-accordion-element>
           <mj-accordion-element>
-            <mj-accordion-title>How it works</mj-accordion-title>
+            <mj-accordion-title>It works everywhere</mj-accordion-title>
             <mj-accordion-text>
-              <span style="line-height:20px">
-                Content is stacked into tabs and users can expand them at will. If responsive styles are not supported (mostly on desktop clients), tabs are then expanded and your content is readable at once.
-              </span>
+              <p>
+                Aute aute commodo laboris deserunt ad dolore sunt excepteur excepteur.
+              </p>
+            </mj-accordion-text>
+          </mj-accordion-element>
+          <mj-accordion-element>
+            <mj-accordion-title>It's powerful</mj-accordion-title>
+            <mj-accordion-text>
+              <p>
+                Aute aute commodo laboris deserunt ad dolore sunt excepteur excepteur.
+              </p>
+            </mj-accordion-text>
+          </mj-accordion-element>
+          <mj-accordion-element>
+            <mj-accordion-title>It's beautiful</mj-accordion-title>
+            <mj-accordion-text>
+              <p>
+                Aute aute commodo laboris deserunt ad dolore sunt excepteur excepteur.
+              </p>
             </mj-accordion-text>
           </mj-accordion-element>
         </mj-accordion>
-
-        <mj-carousel mj-class="anwert-carousel">
-          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/11/ecommerce-guide.jpg" />
-          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/09/3@1x.png" />
-          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/09/1@1x.png" />
-        </mj-carousel>
-
-        <mj-table>
-          <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px 0;">
-            <th style="padding: 0 15px 0 0;">Year</th>
-            <th style="padding: 0 15px;">Language</th>
-            <th style="padding: 0 0 0 15px;">Inspired from</th>
-            
-          </tr>
-          <tr>
-            <td style="padding: 0 15px 0 0;">1995</td>
-            <td style="padding: 0 15px;">PHP</td>
-            <td style="padding: 0 0 0 15px;">C, Shell Unix</td>
-          </tr>
-          <tr>
-            <td style="padding: 0 15px 0 0;">1995</td>
-            <td style="padding: 0 15px;">JavaScript</td>
-            <td style="padding: 0 0 0 15px;">Scheme, Self</td>
-          </tr>
-        </mj-table>
       </mj-column>
 
       </mj-column>
     </mj-section>
 
+    @@include('./partials/_divider.mjml')
 
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-text>
+          <h2>Our Favorite Email Tools</h2>
+          <ul>
+            <li>
+              <a href="https://litmus.com/">Litmus</a>
+              <p>Magna reprehenderit voluptate veniam nisi ex esse aliqua ad non sint dolor Lorem occaecat.</p>
+            </li>
+            <li>
+              <a href="https://putsmail.com/">PutsMail</a>
+              <p>Magna reprehenderit voluptate veniam nisi ex esse aliqua ad non sint dolor Lorem occaecat.</p>
+            </li>
+            <li>
+              <a href="https://reallygoodemails.com/">Really Good Emails</a>
+              <p>Magna reprehenderit voluptate veniam nisi ex esse aliqua ad non sint dolor Lorem occaecat.</p>
+            </li>
+            <li>
+              <a href="https://templates.mailchimp.com/resources/html-to-text/">MC HTML to Text Email Converter</a>
+              <p>Magna reprehenderit voluptate veniam nisi ex esse aliqua ad non sint dolor Lorem occaecat.</p>
+            </li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    @@include('./partials/_divider.mjml')
+
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-text>
+          <h2>Want us to do all the Work?</h2>
+          <p>
+            Laborum dolor duis officia ut mollit velit dolore mollit duis eu reprehenderit ipsum quis voluptate.
+          </p>
+        </mj-text>
+        <mj-button mj-class="cta-btn" href="mail:">
+          Contact us! 
+         </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+    @@include('./partials/_sharebar.mjml')
     @@include('./partials/_footer.mjml')
   </mj-body>
 </mjml>
