@@ -6,16 +6,9 @@
       <mj-column width="100%">
         <mj-text align="center">
           <ul class="footer-links">
-            <li>
-              <a href="https://anwert.io">Website</a>
-            </li>
-            <li>
-              <a href="https://anwert.io/impressum/">Imprint</a>
-            </li>
-
-            <li>
-              <a href="https://anwert.io/impressum/">Unsubscribe</a>
-            </li>
+            <li><a href="https://anwert.io">Website</a></li>
+            <li><a href="https://anwert.io/impressum/">Imprint</a></li>
+            <li><a href="https://anwert.io/impressum/">Unsubscribe</a></li>
           </ul>
         </mj-text>
       </mj-column>
@@ -36,9 +29,9 @@
       <mj-column width="100%">
         <mj-text align="center">
           <p class="footer-anschrift">
-              © 2019 \ Anwert Unternehmensberatung e. U.<br/>
-              Seitenstettengasse 5/37, A-1010 Wien <br/>
-              hello@anwert.io <br>
+              &copy; 2019 \ Anwert Unternehmensberatung e. U.<br/>
+              Seitenstettengasse 5/37, A-1010 Vienna<br/>
+              <a href="mailto:hello@anwert.io">hello@anwert.io</a><br />
               FN 473461t
           </p>
         </mj-text>
