@@ -14,7 +14,7 @@
             </li>
 
             <li>
-              <a href="https://anwert.io/impressum/">Unsubscribe</a>
+              <a href="[[UNSUB_LINK_EN]]">Unsubscribe</a>
             </li>
           </ul>
         </mj-text>

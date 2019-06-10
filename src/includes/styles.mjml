@@ -1,7 +1,3 @@
-<mj-raw>
-    <link rel="shortcut icon" type="image/x-icon" href="https://anwert.io/favicon.ico">
-</mj-raw>
-
 <mj-font name="Europa" href="https://use.typekit.net/zwz5wbu.css" />
 
 <mj-attributes>
@@ -13,7 +9,9 @@
   <mj-class name="cta-btn" background-color="#ef4d3f" border-radius="0" color="#fff" />
   <mj-class name="section" padding="30px 10px" />
   <mj-class name="section-divider" css-class="section-divider"  border-width="1px" border-style="solid" border-color="#005aab" />
-    
+
+  <mj-class name="feature-icon" border="1px dashed #000" width="50px" height="50px" />
+  
   <mj-accordion border="0"/>
   <mj-accordion-element icon-wrapped-url="http://i.imgur.com/Xvw0vjq.png" icon-unwrapped-url="http://i.imgur.com/KKHenWa.png" icon-height="24px" icon-width="24px" />
   <mj-accordion-title background-color="#fff" padding="15px 0" />
