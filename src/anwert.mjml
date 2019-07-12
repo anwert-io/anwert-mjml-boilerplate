@@ -27,26 +27,32 @@
     @@include('./partials/_divider.mjml')
 
     <mj-section mj-class="section">
-      <mj-column padding-right="10%" width="50%">
+      <mj-column width="100%">
+        <mj-text>
+          <h2>Because this is what we do.</h2>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
         <mj-image
           padding-bottom="15px"
           src="assets/images/anwert-mindnode-project.png"
           alt="" />
         <mj-text>
-          <h2>Mindnode</h2>
+          <h3>Mindnode</h3>
           <p>
             Exercitation reprehenderit eu cupidatat do fugiat. Enim ad minim do dolore non culpa quis ea cillum. Incididunt exercitation qui elit sit qui pariatur ad officia dolor aliqua ullamco nulla mollit. Duis duis magna excepteur veniam aute ex. Consequat id commodo nulla commodo amet Lorem. Amet nulla elit velit cillum aute est veniam proident amet deserunt.
           </p>
           <a href="anwert.io" target="_blank">Continue Reading</a>
         </mj-text>
       </mj-column>
-      <mj-column padding-left="10%" width="50%">
+
+      <mj-column padding-top="80px" width="100%">
         <mj-image
           padding-bottom="15px"
           src="assets/images/anwert-tmf-project.png"
           alt="" />
         <mj-text>
-          <h2>TMF</h2>
+          <h3>TMF</h3>
           <p>
             Exercitation reprehenderit eu cupidatat do fugiat. Enim ad minim do dolore non culpa quis ea cillum. Incididunt exercitation qui elit sit qui pariatur ad officia dolor aliqua ullamco nulla mollit. Duis duis magna excepteur veniam aute ex. Consequat id commodo nulla commodo amet Lorem. Amet nulla elit velit cillum aute est veniam proident amet deserunt.
           </p>
@@ -60,11 +66,11 @@
     <mj-section mj-class="section">
       <mj-column width="100%">
         <mj-text>
-          <h2>Create Better Emails</h2>
+          <h2>Let’s Create Better Emails!</h2>
         </mj-text>
       </mj-column>
-      <mj-column padding-right="2.5%" width="50%">
-        <mj-image mj-class="feature-icon" src="" alt="" />
+      <mj-column padding-right="7.5%" width="50%">
+        <mj-image mj-class="feature-icon" src="assets/images/developer-friendly.png" alt="" />
         <mj-text>
           <h3>Developer Friendly</h3>
           <p>
@@ -73,8 +79,8 @@
         </mj-text>
       </mj-column>
 
-      <mj-column padding-left="2.5%" width="50%">
-        <mj-image mj-class="feature-icon" src="" alt="" />
+      <mj-column padding-left="7.5%" width="50%">
+        <mj-image mj-class="feature-icon" src="assets/images/image-optimization.png" alt="" />
         <mj-text>
           <h3>Image Optimization</h3>
           <p>
@@ -83,18 +89,18 @@
         </mj-text>
       </mj-column>
 
-      <mj-column padding-right="2.5%" width="50%">
-        <mj-image mj-class="feature-icon" src="" alt="" />
+      <mj-column padding-right="7.5%" width="50%">
+        <mj-image padding-top="60px" src="assets/images/vendor.png" alt="" />
         <mj-text>
-          <h3>LiveReload</h3>
+          <h3>Vendor Independent</h3>
           <p>
             Sint ex enim aute laborum ut aliqua ipsum Lorem consectetur ad est voluptate mollit amet.        
           </p>
         </mj-text>
       </mj-column>
 
-      <mj-column padding-left="2.5%" width="50%">
-        <mj-image mj-class="feature-icon" src="" alt="" />
+      <mj-column padding-left="7.5%" width="50%">
+        <mj-image padding-top="60px" src="assets/images/validation.png" alt="" />
         <mj-text>
           <h3>Validation</h3>
           <p>

@@ -10,7 +10,7 @@
   <mj-class name="cta-btn" background-color="#ef4d3f" border-radius="0" color="#fff" />
   <mj-class name="section" padding="30px 10px" />
   <mj-class name="section-divider" css-class="section-divider" border-width="1px" border-style="solid" border-color="#005aab" />
-    
+
   <mj-accordion border="0"/>
   <mj-accordion-element icon-wrapped-url="http://i.imgur.com/Xvw0vjq.png" icon-unwrapped-url="http://i.imgur.com/KKHenWa.png" icon-height="24px" icon-width="24px" />
   <mj-accordion-title background-color="#fff" padding="15px 0" />
@@ -41,7 +41,8 @@
   }
 
   a {
-    color: #005aab;
+    color: #EE4D3F;
+    text-decoration: none;
   }
 
   ul {

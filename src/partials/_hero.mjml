@@ -7,11 +7,9 @@
           align="left" />
 
           <mj-image
-          border="1px dashed #333"
-          src=""
+          src="assets/images/header-illustration.png"
           alt=""
-          width="350px"
-          height="350px"
+          width="400px"
           align="right" />
       </mj-column>
     </mj-section>
