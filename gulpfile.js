@@ -1,44 +1,19 @@
-// TODOS:
-// - Validation
-
 "use strict";
 
-const 	gulp           = require('gulp'),
-    		mjml           = require('gulp-mjml'),
-    		watch          = require('gulp-watch'),
-        fileinclude    = require('gulp-file-include'),
-        clean          = require('gulp-clean'),
-        imagemin       = require('gulp-imagemin'),
-        livereload = require('gulp-livereload');
+const gulp           = require('gulp'),
+      mjml           = require('gulp-mjml'),
+      fileinclude    = require('gulp-file-include'),
+      imagemin       = require('gulp-imagemin'),
+      newer          = require('gulp-newer'),
+      browsersync    = require('browser-sync').create();
 
 var mjmlEngine = require('mjml').default
+
 var config = {
-    assetsDir: './assets',
-    distDir: './dist',
-    srcDir: './src',
-    mjmlPattern: '*.mjml'
+  assetsDir: './assets',
+  distDir: './dist',
+  srcDir: './src'
 };
-
-
-function cleanHtml() {
-  return gulp.src([config.distDir]).pipe(clean());
-}
-
-function copyAssets(optimize = false) {
-  gulp.src([config.assetsDir + '/**/*']).pipe(gulp.dest(config.distDir + '/assets'));
-  gulp.src(config.distDir + '/assets/images/*')
-        .pipe(imagemin([
-          imagemin.jpegtran({progressive: true}),
-         imagemin.optipng({optimizationLevel: 5})
-        ]))
-        .pipe(gulp.dest(config.distDir + '/assets/images'))
-}
-
-
-function watchFiles() {
-  livereload.listen();
-  gulp.watch(config.srcDir + '/**/' + config.mjmlPattern, mjml2html)
-}
 
 function handleError (err) {
   console.log(err.toString());
@@ -46,17 +21,56 @@ function handleError (err) {
 }
 
 function mjml2html() {
-  copyAssets()
-
   return gulp.src(config.srcDir + '/' + config.mjmlPattern)
     .pipe(fileinclude({prefix: '@@', basepath: '@file'}))
     .pipe(mjml(mjmlEngine, {minify: true, validationLevel: 'strict'}))
     .on('error', handleError)
     .pipe(gulp.dest(config.distDir))
-    .pipe(livereload());
+    .pipe(browsersync.stream())
 }
 
+// BrowserSync
+function browserSync(done) {
+  browsersync.init({
+    server: {
+      baseDir: config.distDir
+    },
+    port: 3000
+  });
+  done();
+}
 
-gulp.task('compile', mjml2html);
-gulp.task('watch', gulp.parallel(watchFiles));
-gulp.task('clean', cleanHtml);
+// BrowserSync Reload
+function browserSyncReload(done) {
+  browsersync.reload();
+  done();
+}
+
+function assets() {
+  gulp
+    .src([config.assetsDir + '/**/*'])
+    .pipe(newer(config.distDir + '/assets'))
+    .pipe(gulp.dest(config.distDir + '/assets'));
+
+  return gulp
+    .src(config.assetsDir + '/images/**/*')
+    .pipe(newer(config.distDir + '/assets/images'))
+    .pipe(imagemin([
+      imagemin.jpegtran({progressive: true}),
+     imagemin.optipng({optimizationLevel: 5})
+    ]))
+    .pipe(gulp.dest(config.distDir + '/assets/images'));
+}
+
+function watchFiles() {
+  gulp.watch(config.srcDir + '/**/*.mjml', 
+              gulp.series(gulp.parallel(mjml2html, assets), browserSyncReload));
+  gulp.watch(config.assetsDir + '/images/**/*', assets);
+}
+
+const build = gulp.parallel(mjml2html, assets);
+const watch = gulp.parallel(watchFiles, browserSync);
+
+exports.assets = assets;
+exports.build = build;
+exports.watch = watch;
