@@ -32,7 +32,8 @@
           <h2>Because this is what we do.</h2>
         </mj-text>
       </mj-column>
-      <mj-column width="100%">
+      
+      <mj-column padding-right="7.5%" width="50%">
         <mj-image
           padding-bottom="15px"
           src="assets/images/anwert-mindnode-project.png"
@@ -46,7 +47,7 @@
         </mj-text>
       </mj-column>
 
-      <mj-column padding-top="80px" width="100%">
+      <mj-column padding-left="7.5%" width="50%">
         <mj-image
           padding-bottom="15px"
           src="assets/images/anwert-tmf-project.png"

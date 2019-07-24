@@ -21,7 +21,7 @@ function handleError (err) {
 }
 
 function mjml2html() {
-  return gulp.src(config.srcDir + '/' + config.mjmlPattern)
+  return gulp.src(config.srcDir + '/*.mjml')
     .pipe(fileinclude({prefix: '@@', basepath: '@file'}))
     .pipe(mjml(mjmlEngine, {minify: true, validationLevel: 'strict'}))
     .on('error', handleError)
