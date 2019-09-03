@@ -1,0 +1,236 @@
+<mjml version="4.2">
+  <mj-head>
+    @@include('./includes/styles.mjml')
+
+    <mj-title>Anwert MJML Boilerplate</mj-title>
+    <mj-preview>Anwert MJML Boilerplate</mj-preview>
+
+  </mj-head>
+
+  <mj-body background-color="#fff">
+    @@include('./partials/_hero.mjml')
+
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-text>
+          <h1>How do you like that?</h1>
+          <p>
+            By the time you start reading this sentence, you have already made up your mind. In fact, your brain only took a tenth of a second to get an impression. So your newsletter layout must convince quickly.
+          </p>
+          <p>
+            That’s not easy at all. Because your company is not the only one that wants to attract attention. There are approx. 10,000 other advertising messages to which your customers are exposed daily. Obviously, nobody can take up this amount of advertising. The result: advertising blindness.
+          </p>
+          <p>
+            The alternative: direct news. In a world, in which advertisement is increasingly addressed to the broad mass, nothing attracts more attention than personal messages. It is therefore no coincidence that e-mail marketing is currently experiencing a renaissance. Thanks to legal regulations that prevent the sending of unsolicited advertising and SPAM mails, today only those messages that really interest the recipients end up in their mailboxes. The newsletter is thus becoming the most important tool in the online marketing mix directly after the website. As such, its planning and design deserve special attention.
+          </p>
+          <p>
+            To make it all easier for you, we have now published our Boilerplate project on GitHub.
+          </p>
+        </mj-text>
+        <mj-button mj-class="cta-btn" href="github.com">
+          Up, on to GitHub 
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    @@include('./partials/_divider.mjml')
+
+    <mj-section mj-class="section-top">
+      <mj-column width="100%">
+        <mj-text>
+          <h2>See for yourself.</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-bottom">
+      <mj-column padding-right="7.5%" width="50%">
+        <mj-image
+          padding-bottom="15px"
+          src="assets/images/anwert-tmf-project.png"
+          alt="" />
+        <mj-text>
+          <h3>Internal newsletter of TMF</h3>
+          <p>
+            Together with the TMF Group - a leading provider of business services - we have developed an internal newsletter that keeps their employees up to date in Germany, Austria and Switzerland.
+          </p>
+        </mj-text>
+      </mj-column>
+
+      <mj-column padding-left="7.5%" width="50%">
+        <mj-image
+          padding-bottom="15px"
+          src="assets/images/anwert-mindnode-project.png"
+          alt="" />
+        <mj-text>
+          <h3>Email course from MindNode</h3>
+          <p>
+            We have shown the users of the MindNode mind mapping tool how to use the app via an e-mail course. Using crisp texts, clear graphics and short GIFs, we explained the features in a simple and playful way.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    @@include('./partials/_divider.mjml')
+
+    <mj-section mj-class="section-top">
+      <mj-column width="100%">
+        <mj-text>
+          <h2>What matters.</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 10px">
+      <mj-column padding-right="7.5%" width="50%">
+        <mj-image mj-class="feature-icon" src="assets/images/developer-friendly.png" alt="" />
+        <mj-text>
+          <h3>Simple coding</h3>
+          <p>
+            Templates should make the life of developers easier, not harder. That’s why our template can be developed and tested on several devices at the same time.
+          </p>
+        </mj-text>
+      </mj-column>
+
+      <mj-column padding-left="7.5%" width="50%">
+        <mj-image mj-class="feature-icon" src="assets/images/image-optimization.png" alt="" />
+        <mj-text>
+          <h3>Saving resources</h3>
+          <p>
+            Image size can be automatically optimized to save bandwidth and user time. All this happens without you even noticing it.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-bottom">
+      <mj-column padding-right="7.5%" width="50%">
+        <mj-image padding-top="60px" src="assets/images/vendor.png" alt="" />
+        <mj-text>
+          <h3>Independent of distribution tools</h3>
+          <p>
+            You use Mailchimp, Mailjet, the good old Outlook or nothing like that? Our template is designed in a way that it can be used independently of the respective newsletter management tool.
+          </p>
+        </mj-text>
+      </mj-column>
+
+      <mj-column padding-left="7.5%" width="50%">
+        <mj-image padding-top="60px" src="assets/images/validation.png" alt="" />
+        <mj-text>
+          <h3>Easy to check</h3>
+          <p>
+            As in the household, the following also applies to coding: Small bugs can lead to great panic. Write clean MJML and HTML code using automatic validation via the built-in validation function.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    @@include('./partials/_divider.mjml')
+
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-text>
+          <h2>Our Favorite Email Tools</h2>
+          <p>
+            For conception, text, design, testing as well as distribution and optimization, we have brought on board the best in their fields - with a toolbox of selected software, we build e-mails that inspire you in less than a tenth of a second.
+          </p>
+          <ul>
+            <li>
+              <a href="https://mindnode.com/">MindNode</a>
+              <span>To collect, structure and develop ideas.</span>
+            </li>
+            <li>
+              <a href="https://www.adobe.com/at/products/xd.html">Adobe XD</a>
+              <span>For custom designs that are quick and easy to create.</span>
+            </li>
+            <li>
+              <a href="https://www.grammarly.com/">Grammarly</a>
+              <span>To compose clear, mistake-free writing.</span>
+            </li>
+            <li>
+              <a href="https://litmus.com/">Litmus</a>
+              <span>Testing even those clients you've never heard of.</span>
+            </li>
+            <li>
+              <a href="https://putsmail.com/">PutsMail</a>
+              <span>Better safe than sorry! This allows us to test e-mails in real time before they are sent.</span>
+            </li>
+            <li>
+              <a href="https://templates.mailchimp.com/resources/html-to-text/">HTML to Text E-Mail Converter</a>
+            </li>
+            <li>
+              <a href="https://mailchimp.com/">Mailchimp</a>
+              <span>Helps us to make your e-mails beautiful.</span>
+            </li>
+            <li>
+              <a href="https://mailjet.com/">Mailjet</a>
+              <span>Our digital newsletter manager. Instead of the carrier pigeon.</span>
+            </li>
+            <li>
+              <a href="https://reallygoodemails.com/">Really Good Emails</a>
+              <span>Learn from the best.</span>
+            </li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    @@include('./partials/_divider.mjml')
+
+    <mj-section mj-class="section">
+      <mj-column>
+        <mj-text>
+          <h2>But enough about us. What are you working on right now?</h2>
+          <p>
+            Tell us what you think about our template and which cool projects you're working on right now. Tell us how you do e-mail marketing and what we can do for you.
+          </p>
+        </mj-text>
+        <mj-button mj-class="cta-btn" href="mail:">
+          Write us! 
+         </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="section share-bar">
+      <mj-group>
+        <mj-column width="50%">
+          <mj-text>
+            <div style="padding-bottom:20px">
+              Did you like this?
+            </div>
+            <img style="display: inline-block;border: 1px dashed #000; margin-right: 10px; height: 30px !important" src="" alt="" width="30px" />
+            <img style="display: inline-block;border: 1px dashed #000; height: 30px !important" src="" alt="" width="30px" />
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="50%">
+          <mj-text>
+            Share:
+          </mj-text>
+          <mj-social align="left" padding="20px 0">
+            <mj-social-element
+              padding="0 10px 0 0" 
+              name="facebook"
+              background-color="#333"
+              href=""></mj-social-element>
+            <mj-social-element 
+              padding="0 10px 0 0"
+              name="twitter"
+              background-color="#333"
+              href=""></mj-social-element>
+            <mj-social-element 
+              padding="0 10px 0 0"
+              name="linkedin"
+              background-color="#333"
+              href=""></mj-social-element>
+            <mj-social-element 
+              padding="0 10px 0 0"
+              name="xing"
+              background-color="#333"
+              href=""></mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-group>
+    </mj-section>    
+
+    @@include('./partials/_footer.mjml')
+  </mj-body>
+</mjml>

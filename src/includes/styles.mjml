@@ -8,6 +8,9 @@
   <mj-class name="share-bar" background-color="#C4C4C3" full-width="full-width" />
 
   <mj-class name="cta-btn" background-color="#ef4d3f" border-radius="0" color="#fff" />
+
+  <mj-class name="section-top" padding="30px 10px 0 10px" />
+  <mj-class name="section-bottom" padding="0 10px 30px 10px" />
   <mj-class name="section" padding="30px 10px" />
   <mj-class name="section-divider" css-class="section-divider" border-width="1px" border-style="solid" border-color="#005aab" />
 
