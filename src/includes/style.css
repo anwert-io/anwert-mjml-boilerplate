@@ -1,0 +1,79 @@
+  h1 {
+    margin-top: 0;
+    font-size: 36px;
+    line-height: 50.4px
+  }
+
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 30px
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  a {
+    color: #EE4D3F;
+    text-decoration: none;
+  }
+
+  ul {
+    margin: 0
+  }
+
+  .mj-accordion-title {
+    border-bottom: 3px solid #ef4d3f
+  }
+
+  .footer-anschrift {
+    margin: 20px 0
+  }
+
+  .footer-links {
+    letter-spacing: .07em;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none
+  }
+
+  .footer-links li {
+    margin-bottom: 18px;
+  }
+
+  .footer-links a { 
+    color: #000;
+    display: inline-block;
+    position: relative;
+    text-decoration: none
+  }
+
+  @media only screen and (max-width: 479px) {
+    .mj-column-per-50 > table > tbody > tr > td {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      padding: 1em 0 !important
+    }
+  }
+
+  .footer-links a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s
+  }
+
+  .footer-links a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1)
+  }

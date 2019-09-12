@@ -203,7 +203,7 @@
 
         <mj-column width="50%">
           <mj-text>
-            Teilen:
+            Diese E-Mail teilen.
           </mj-text>
           <mj-social align="left" padding="20px 0">
             <mj-social-element
@@ -231,6 +231,6 @@
       </mj-group>
     </mj-section>    
 
-    @@include('./partials/_footer.mjml')
+    @@include('./partials/_footer-de.mjml')
   </mj-body>
 </mjml>

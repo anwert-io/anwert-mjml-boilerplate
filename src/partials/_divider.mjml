@@ -4,9 +4,11 @@
  -->
 
 <mj-raw>
-    <p style="border-top:solid 1px #005aab;
+    <p style="border-top:solid 4px #005aab;
               font-size:1;
               margin:0px auto;
               max-width: 100%;
-              width:600px;"></p>
+              width:600px;
+              margin-top: 60px;
+			  padding-top: 60px;"></p>
 </mj-raw>

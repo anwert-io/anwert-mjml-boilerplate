@@ -231,6 +231,6 @@
       </mj-group>
     </mj-section>    
 
-    @@include('./partials/_footer.mjml')
+    @@include('./partials/_footer-en.mjml')
   </mj-body>
 </mjml>
