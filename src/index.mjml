@@ -54,6 +54,9 @@
             Together with the TMF Group - a leading provider of business services - we have developed an internal newsletter that keeps their employees up to date in Germany, Austria and Switzerland.
           </p>
         </mj-text>
+        <mj-button mj-class="cta-btn" href="https://anwert.io/work/tmf/newsletter/2019-01/">
+          View
+        </mj-button>
       </mj-column>
 
       <mj-column padding-left="7.5%" width="50%">
@@ -67,6 +70,9 @@
             We have shown the users of the MindNode mind mapping tool how to use the app via an e-mail course. Using crisp texts, clear graphics and short GIFs, we explained the features in a simple and playful way.
           </p>
         </mj-text>
+        <mj-button mj-class="cta-btn" href="https://anwert.io/work/mindnode/onboarding-mac-01.html">
+          View
+        </mj-button>
       </mj-column>
     </mj-section>
 
@@ -196,41 +202,57 @@
             <div style="padding-bottom:20px">
               Did you like this?
             </div>
-            <img style="display: inline-block;border: 1px dashed #000; margin-right: 10px; height: 30px !important" src="" alt="" width="30px" />
-            <img style="display: inline-block;border: 1px dashed #000; height: 30px !important" src="" alt="" width="30px" />
+            <a href="mailto:hello@anwert.io?subject=The boilerplate is great&body=Hello Anwert Team, %0D%0A%0D%0A I loved what you did with the boilerplate!%0D%0A%0D%0A Kind Regards,%0D%0A%0D%0A"><img style="display: inline-block; margin-right: 10px; height: 30px !important" src="assets/images/thumbs-up-solid.png" alt="" width="30px" /></a>
+            <a href="mailto:hello@anwert.io?subject=I have a suggestion for the boilerplate&body=Hello Anwert Team, %0D%0A%0D%0A I have the following suggestion for the boilerplate: %0D%0A%0D%0A%0D%0A Kind Regards,%0D%0A%0D%0A"><img style="display: inline-block; height: 30px !important" src="assets/images/thumbs-down-solid.png" alt="" width="30px" /></a>
           </mj-text>
         </mj-column>
 
         <mj-column width="50%">
-          <mj-text>
+          <mj-text align="right">
             Share:
           </mj-text>
-          <mj-social align="left" padding="20px 0">
+          <mj-social align="right" padding="20px 0">
             <mj-social-element
+              align="right"
               padding="0 10px 0 0" 
               name="facebook"
               background-color="#333"
-              href=""></mj-social-element>
-            <mj-social-element 
+              href="anwert.io/mjml-boilerplate"
+              ></mj-social-element>
+            <mj-social-element
+              align="right" 
               padding="0 10px 0 0"
               name="twitter"
               background-color="#333"
-              href=""></mj-social-element>
-            <mj-social-element 
+              href="anwert.io/mjml-boilerplate"
+              ></mj-social-element>
+            <mj-social-element
+              align="right" 
               padding="0 10px 0 0"
               name="linkedin"
               background-color="#333"
-              href=""></mj-social-element>
-            <mj-social-element 
+              href="anwert.io/mjml-boilerplate"
+              ></mj-social-element>
+            <mj-social-element
+              align="right" 
               padding="0 10px 0 0"
               name="xing"
               background-color="#333"
-              href=""></mj-social-element>
+              href="anwert.io/mjml-boilerplate"
+              ></mj-social-element>
+            <mj-social-element
+              align="right" 
+              src="assets/images/envelope-solid.png"
+              padding="0 0 0 0"  
+              name="email"
+              background-color="#333"
+              href="mailto:?subject=Check out this awesome MJML project!&body=anwert.io/mjml-boilerplate">
+            </mj-social-element>
           </mj-social>
         </mj-column>
       </mj-group>
     </mj-section>    
 
-    @@include('./partials/_footer-en.mjml')
+    @@include('./partials/_footer.mjml')
   </mj-body>
 </mjml>

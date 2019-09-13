@@ -28,5 +28,5 @@
 
 <mj-style inline="inline">
   <!-- To have syntax highlighting -->
-  @@include('./styles.css')
+  @@include('./style.css')
 </mj-style>
