@@ -10,6 +10,7 @@ To do our part in improving newsletters everywhere we decided to open-source our
 
 ## What the boilerplate does
 The boilerplate provides you with the following:
+* Write code that works on most email clients
 * A (configureable) project structure
 * BrowserSync for live reloading and simultaneous multi-device testing
 * Automatic image optimization
