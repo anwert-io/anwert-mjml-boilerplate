@@ -2,6 +2,8 @@
 
 Icons by Font Awesome (https://fontawesome.com/license)
 
+Preview: https://anwert-io.github.io/anwert-mjml-boilerplate/dist/
+
 ## Install Setup
 
 `npm install`
