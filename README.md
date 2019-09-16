@@ -46,4 +46,4 @@ npm run build
 * Multilingual support 
 
 ## Credit
-Icons by Font Awesome (https://fontawesome.com/license). No changes werde made
+Icons by [Font Awesome](https://fontawesome.com/license). No changes werde made
