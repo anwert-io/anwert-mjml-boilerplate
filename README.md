@@ -10,6 +10,12 @@ To create such good looking newsletters we utilize two tools:
 1. [MJML](https://github.com/mjmlio/mjml)
 2. This boilerplate
 
+## What the boilerplate does
+The boilerplate provides you with the following:
+* A (configureable) project structure
+* BrowserSync for live reloading and simultaneous multi-device testing
+* Automatic image optimization
+
 ## Usage
 
 **Installation**
@@ -27,12 +33,16 @@ npm install
 That's it, you can now remove our demo project files and add your own. 
 
 **Watch:**
-```npm run watch```
+```
+npm run watch
+```
 
 Running the watch command will launch [BrowserSync](https://github.com/BrowserSync/browser-sync). BrowserSync will reload your site automatically when you change the code and push those changes onto any you are testing on. No further setup needed. 
 
 **Build**
-```npm run build```
+```
+npm run build
+```
 
 ## Future features
 * Multilingual support 
