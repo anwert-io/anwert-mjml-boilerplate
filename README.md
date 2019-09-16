@@ -2,9 +2,9 @@
 
 We love creating beautfiul newsletters and have been doing it for a while now.
 
-Our work has been featured on Really Good Emails: https://reallygoodemails.com/emails/getting-the-most-out-of-mindnode-for-ios-3-3/
+Our work has been featured on [Really Good Emails](https://reallygoodemails.com/emails/getting-the-most-out-of-mindnode-for-ios-3-3/)
 
-Here is a demo we put together to show the power of MJML: https://anwert-io.github.io/anwert-mjml-boilerplate/dist/index.html
+We put together a [Demo](https://anwert-io.github.io/anwert-mjml-boilerplate/dist/index.html) to show the power of MJML.
 
 To create such good looking newsletters we utilize two tools:
 1. [MJML](https://github.com/mjmlio/mjml)
