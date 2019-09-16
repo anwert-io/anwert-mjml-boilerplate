@@ -1,14 +1,14 @@
 # MJML Boilerplate
 
-We love creating beautfiul newsletters and have been doing it for a while now.
+[Anwert](https://anwert.io/)
 
-Our work has been featured on [Really Good Emails](https://reallygoodemails.com/emails/getting-the-most-out-of-mindnode-for-ios-3-3/)
-
-We put together a [Demo](https://anwert-io.github.io/anwert-mjml-boilerplate/dist/index.html) to show the power of MJML.
+We love creating beautfiul newsletters and have been doing it for a while now. Our work has been featured on [Really Good Emails](https://reallygoodemails.com/emails/getting-the-most-out-of-mindnode-for-ios-3-3/). To help improve newsletters everywhere we decided to open-source our toolchain :D
 
 To create such good looking newsletters we utilize two tools:
 1. [MJML](https://github.com/mjmlio/mjml)
 2. This boilerplate
+
+[Here is a demo of what is possible](https://anwert-io.github.io/anwert-mjml-boilerplate/dist/index.html) to show the power of MJML.
 
 ## What the boilerplate does
 The boilerplate provides you with the following:
