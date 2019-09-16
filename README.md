@@ -6,7 +6,7 @@ We love creating beautfiul newsletters and have been doing it for a while now. O
 
 To do our part in improving newsletters everywhere we decided to open-source our MJML based toolchain.
 
-[Here is a demo we made to show what layouts are possible with MJML](https://anwert-io.github.io/anwert-mjml-boilerplate/dist/index.html).
+[Here is a demo we made to show what is possible with MJML](https://anwert-io.github.io/anwert-mjml-boilerplate/dist/index.html).
 
 ## What the boilerplate does
 The boilerplate provides you with the following:
