@@ -1,18 +1,17 @@
 {
-  "name": "tmf-ags-newsletter",
+  "name": "anwert-mjml-boilerplate",
   "version": "1.0.0",
-  "description": "all the mjml for TMF",
-  "main": "gulp.js",
+  "description": "Easy MJML development",
   "scripts": {
     "compile": "./node_modules/gulp/bin/gulp.js compile",
     "watch": "./node_modules/gulp/bin/gulp.js watch"
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "https://github.com/anwert-io/anwert-mjml-boilerplate.git"
   },
-  "author": "Thomas Dori",
-  "license": "ISC",
+  "author": "Anwert",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.0",
