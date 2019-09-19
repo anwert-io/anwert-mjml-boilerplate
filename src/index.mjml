@@ -43,7 +43,7 @@
       </mj-column>
     </mj-section>
     <mj-section mj-class="section-bottom">
-      <mj-column padding-right="7.5%" width="50%">
+      <mj-column padding-right="7.5%" padding-bottom="30px" width="50%">
         <mj-image
           padding-bottom="15px"
           src="assets/images/anwert-tmf-project.png"
@@ -86,7 +86,7 @@
       </mj-column>
     </mj-section>
     <mj-section padding="0 10px">
-      <mj-column padding-right="7.5%" width="50%">
+      <mj-column padding-right="7.5%" padding-bottom="30px" width="50%">
         <mj-image mj-class="feature-icon" src="assets/images/developer-friendly.png" alt="" />
         <mj-text>
           <h3>Simple coding</h3>
@@ -96,7 +96,7 @@
         </mj-text>
       </mj-column>
 
-      <mj-column padding-left="7.5%" width="50%">
+      <mj-column padding-left="7.5%" padding-bottom="30px" width="50%">
         <mj-image mj-class="feature-icon" src="assets/images/image-optimization.png" alt="" />
         <mj-text>
           <h3>Saving resources</h3>
