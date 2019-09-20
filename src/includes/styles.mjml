@@ -1,6 +1,5 @@
 <mj-font name="Europa" href="https://use.typekit.net/zwz5wbu.css" />
 
-
 <mj-attributes>
   <mj-class name="body" background-color="#FFF" />
   <mj-class name="hero" background-color="#005AAB" full-width="full-width" />

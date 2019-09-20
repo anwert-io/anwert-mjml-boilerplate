@@ -5,6 +5,9 @@
     <mj-title>Anwert MJML Boilerplate</mj-title>
     <mj-preview>Anwert MJML Boilerplate</mj-preview>
 
+    <mj-raw>
+      <link rel="shortcut icon" type="image/x-icon" href="https://anwert.io/favicon.ico">
+    </mj-raw>
   </mj-head>
 
   <mj-body background-color="#fff">
