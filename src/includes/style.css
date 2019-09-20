@@ -20,12 +20,15 @@ a {
 }
 
 p {
-  hyphens: auto;
-  
+  hyphens: auto
 }
 
 ul {
   margin: 0
+}
+
+li {
+  margin-top: 7px;
 }
 
 .mj-accordion-title {
