@@ -63,8 +63,8 @@ function assets() {
 }
 
 function watchFiles() {
-  gulp.watch(config.srcDir + '/**/*.mjml', 
-              gulp.series(gulp.parallel(mjml2html, assets), browserSyncReload));
+  gulp.watch(config.srcDir + '/**/*.mjml', gulp.series(gulp.parallel(mjml2html, assets), browserSyncReload));
+  gulp.watch(config.srcDir + '/**/*.css', gulp.series(gulp.parallel(mjml2html, assets), browserSyncReload));
   gulp.watch(config.assetsDir + '/images/**/*', assets);
 }
 
