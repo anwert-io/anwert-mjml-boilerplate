@@ -26,6 +26,10 @@
 </mj-attributes>
 
 
+<mj-style>
+  @@include('./style.css');
+</mj-style>
+
 <mj-style inline="inline">
-  @@include('./style.css')
+  @@include('./style-inline.css');
 </mj-style>

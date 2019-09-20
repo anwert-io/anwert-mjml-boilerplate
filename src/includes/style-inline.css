@@ -1,0 +1,83 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 42px
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 32px;
+  line-height: 42px
+}
+
+h3 {
+  font-size: 18px
+}
+
+a {
+  color: #004E9E;
+  text-decoration: none
+}
+
+p {
+  hyphens: auto
+}
+
+ul {
+  margin: 0
+}
+
+li {
+  margin-top: 7px;
+}
+
+.mj-accordion-title {
+  border-bottom: 3px solid #ef4d3f
+}
+
+.footer-anschrift {
+  margin: 20px 0
+}
+
+.footer-links {
+  letter-spacing: .07em;
+  margin: 20px 0;
+  padding: 0;
+  list-style: none
+}
+
+.footer-links li {
+  margin-bottom: 18px
+}
+
+.footer-links a { 
+  color: #000;
+  display: inline-block;
+  position: relative;
+  text-decoration: none
+}
+
+.footer-links a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s
+}
+
+.footer-links a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1)
+}

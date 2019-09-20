@@ -46,7 +46,7 @@
       </mj-column>
     </mj-section>
     <mj-section mj-class="section-bottom">
-      <mj-column padding-right="7.5%" width="50%">
+      <mj-column padding-right="7.5%" padding-bottom="30px" width="50%">
         <mj-image
           padding-bottom="15px"
           src="assets/images/anwert-tmf-project.png"
@@ -89,7 +89,7 @@
       </mj-column>
     </mj-section>
     <mj-section padding="0 10px">
-      <mj-column padding-right="7.5%" width="50%">
+      <mj-column padding-right="7.5%" padding-bottom="30px" width="50%">
         <mj-image mj-class="feature-icon" src="assets/images/developer-friendly.png" alt="" />
         <mj-text>
           <h3>Easy to Learn</h3>
@@ -99,7 +99,7 @@
         </mj-text>
       </mj-column>
 
-      <mj-column padding-left="7.5%" width="50%">
+      <mj-column padding-left="7.5%" padding-bottom="30px" width="50%">
         <mj-image mj-class="feature-icon" src="assets/images/image-optimization.png" alt="" />
         <mj-text>
           <h3>Saving Resources</h3>
@@ -110,7 +110,7 @@
       </mj-column>
     </mj-section>
     <mj-section mj-class="section-bottom">
-      <mj-column padding-right="7.5%" width="50%">
+      <mj-column padding-right="7.5%" padding-bottom="30px" width="50%">
         <mj-image padding-top="60px" src="assets/images/vendor.png" alt="" />
         <mj-text>
           <h3>Delivery-Tool Independent</h3>
@@ -212,7 +212,7 @@
         <mj-column width="50%">
           <mj-text>
             <div style="padding-bottom:20px">
-              Did you like this?
+              Do you like this?
             </div>
             <a href="mailto:hello@anwert.io?subject=The boilerplate is great&body=Hello Anwert Team, %0D%0A%0D%0A I loved what you did with the boilerplate!%0D%0A%0D%0A Kind Regards,%0D%0A%0D%0A"><img style="display: inline-block; margin-right: 10px; height: 30px !important" src="assets/images/thumbs-up-solid.png" alt="" width="30px" /></a>
             <a href="mailto:hello@anwert.io?subject=I have a suggestion for the boilerplate&body=Hello Anwert Team, %0D%0A%0D%0A I have the following suggestion for the boilerplate: %0D%0A%0D%0A%0D%0A Kind Regards,%0D%0A%0D%0A"><img style="display: inline-block; height: 30px !important" src="assets/images/thumbs-down-solid.png" alt="" width="30px" /></a>
@@ -221,7 +221,7 @@
 
         <mj-column width="50%">
           <mj-text align="right">
-            Share:
+            Share this with your friends!
           </mj-text>
           <mj-social align="right" padding="20px 0">
             <mj-social-element
