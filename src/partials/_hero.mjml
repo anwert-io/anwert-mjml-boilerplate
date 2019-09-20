@@ -1,15 +1,15 @@
-    <mj-section mj-class="section hero">
-      <mj-column>
-        <mj-image
-          src="https://anwert.io/wp-content/uploads/2018/04/Anwert-Logo-Full-White.png"
-          alt="Anwert"
-          width="192px"
-          align="left" />
+<mj-section mj-class="section hero">
+  <mj-column>
+    <mj-image
+      src="https://anwert.io/wp-content/uploads/2018/04/Anwert-Logo-Full-White.png"
+      alt="Anwert"
+      width="192px"
+      align="left" />
 
-          <mj-image
-          src="assets/images/header-illustration.png"
-          alt=""
-          width="400px"
-          align="right" />
-      </mj-column>
-    </mj-section>
+      <mj-image
+      src="assets/images/header-illustration.png"
+      alt=""
+      width="400px"
+      align="right" />
+  </mj-column>
+</mj-section>
