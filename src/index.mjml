@@ -229,28 +229,28 @@
               padding="0 10px 0 0" 
               name="facebook"
               background-color="#333"
-              href="anwert.io/mjml-boilerplate"
+              href="https://github.com/anwert-io/anwert-mjml-boilerplate"
               ></mj-social-element>
             <mj-social-element
               align="right" 
               padding="0 10px 0 0"
               name="twitter"
               background-color="#333"
-              href="anwert.io/mjml-boilerplate"
+              href="https://github.com/anwert-io/anwert-mjml-boilerplate"
               ></mj-social-element>
             <mj-social-element
               align="right" 
               padding="0 10px 0 0"
               name="linkedin"
               background-color="#333"
-              href="anwert.io/mjml-boilerplate"
+              href="https://github.com/anwert-io/anwert-mjml-boilerplate"
               ></mj-social-element>
             <mj-social-element
               align="right" 
               padding="0 10px 0 0"
               name="xing"
               background-color="#333"
-              href="anwert.io/mjml-boilerplate"
+              href="https://github.com/anwert-io/anwert-mjml-boilerplate"
               ></mj-social-element>
             <mj-social-element
               align="right" 
@@ -258,7 +258,7 @@
               padding="0 0 0 0"  
               name="email"
               background-color="#333"
-              href="mailto:?subject=Check out this awesome MJML project!&body=anwert.io/mjml-boilerplate">
+              href="mailto:?subject=Check out this awesome MJML project!&body=https://github.com/anwert-io/anwert-mjml-boilerplate">
             </mj-social-element>
           </mj-social>
         </mj-column>
