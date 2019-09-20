@@ -18,7 +18,7 @@
     "gulp-clean": "^0.4.0",
     "gulp-imagemin": "^5.0.3",
     "gulp-livereload": "^4.0.1",
-    "gulp-mjml": "^3.0.0",
+    "gulp-mjml": "^4.0.2",
     "gulp-newer": "^1.4.0",
     "gulp-watch": "^5.0.1",
     "mjml": "^4.2.0"
