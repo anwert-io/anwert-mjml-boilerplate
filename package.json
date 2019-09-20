@@ -1,7 +1,7 @@
 {
-  "name": "tmf-ags-newsletter",
+  "name": "mjml-boilerplate-by-anwert",
   "version": "1.0.0",
-  "description": "all the mjml for TMF",
+  "description": "Boilerplate for MJML to create stunning emails. Made with ♡ by Anwert.",
   "main": "gulp.js",
   "scripts": {
     "compile": "./node_modules/gulp/bin/gulp.js compile",
