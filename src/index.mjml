@@ -209,7 +209,7 @@
 
     <mj-section mj-class="section share-bar">
       <mj-group>
-        <mj-column width="50%">
+        <mj-column width="40%">
           <mj-text>
             <div style="padding-bottom:20px">
               Do you like this?
@@ -219,9 +219,9 @@
           </mj-text>
         </mj-column>
 
-        <mj-column width="50%">
+        <mj-column width="60%">
           <mj-text align="right">
-            Share this with your friends!
+            Share this<span class="hidden-on-mobile"> with your friends</span>!
           </mj-text>
           <mj-social align="right" padding="20px 0">
             <mj-social-element
