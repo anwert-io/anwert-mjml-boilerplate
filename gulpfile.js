@@ -21,12 +21,15 @@ function handleError (err) {
 }
 
 function mjml2html() {
-  return gulp.src(config.srcDir + '/*.mjml')
-    .pipe(fileinclude({prefix: '@@', basepath: '@file'}))
-    .pipe(mjml(mjmlEngine, {minify: true, validationLevel: 'strict'}))
-    .on('error', handleError)
+  return gulp
+    .src(config.srcDir + "/*.mjml")
+    .pipe(fileinclude({ prefix: "@@", basepath: "@file" }))
+    .on("error", handleError)
+    .pipe(mjml(mjmlEngine, { minify: true, validationLevel: "strict" }))
+    .on("error", handleError)
     .pipe(gulp.dest(config.distDir))
-    .pipe(browsersync.stream())
+    .on("error", handleError)
+    .pipe(browsersync.stream());
 }
 
 // BrowserSync
@@ -74,3 +77,4 @@ const watch = gulp.parallel(watchFiles, browserSync);
 exports.assets = assets;
 exports.build = build;
 exports.watch = watch;
+exports.default = watch;
