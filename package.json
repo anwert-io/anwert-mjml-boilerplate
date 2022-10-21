@@ -16,7 +16,7 @@
   "author": "Christian Cito and Thomas Dori for Anwert",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "*",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-clean": "*",
     "gulp-file-include": "*",
@@ -26,6 +26,6 @@
     "gulp-mjml": "^4.0.2",
     "gulp-newer": "*",
     "gulp-watch": "*",
-    "mjml": "*"
+    "mjml": "^4.13.0"
   }
 }
