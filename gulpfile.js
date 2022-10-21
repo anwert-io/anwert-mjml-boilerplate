@@ -56,13 +56,15 @@ function assets() {
     .pipe(gulp.dest(config.distDir + '/assets'));
 
   return gulp
-    .src(config.assetsDir + '/images/**/*')
-    .pipe(newer(config.distDir + '/assets/images'))
-    .pipe(imagemin([
-      imagemin.jpegtran({progressive: true}),
-     imagemin.optipng({optimizationLevel: 5})
-    ]))
-    .pipe(gulp.dest(config.distDir + '/assets/images'));
+    .src(config.assetsDir + "/images/**/*")
+    .pipe(newer(config.distDir + "/assets/images"))
+    .pipe(
+      imagemin([
+        imagemin.mozjpeg({ progressive: true }),
+        imagemin.optipng({ optimizationLevel: 5 }),
+      ])
+    )
+    .pipe(gulp.dest(config.distDir + "/assets/images"));
 }
 
 function watchFiles() {
