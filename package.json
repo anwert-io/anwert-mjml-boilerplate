@@ -1,11 +1,13 @@
 {
   "name": "mjml-boilerplate-by-anwert",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Boilerplate for MJML to create stunning emails. Made with ♡ by Anwert.",
   "main": "gulp.js",
   "scripts": {
     "build": "./node_modules/gulp/bin/gulp.js build",
-    "watch": "./node_modules/gulp/bin/gulp.js watch"
+    "watch": "./node_modules/gulp/bin/gulp.js watch",
+    "build-windows": "cd ./node_modules/gulp/bin && node gulp.js build",
+    "watch-windows": "cd ./node_modules/gulp/bin && node gulp.js watch"
   },
   "repository": {
     "type": "git",
