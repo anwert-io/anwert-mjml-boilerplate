@@ -15,6 +15,8 @@ npm install
 
 ## Usage
 
+### Unix-based
+
 **Building**
 ```
 npm run build
@@ -23,6 +25,18 @@ npm run build
 **Watching**
 ```
 npm run watch
+```
+
+### Windows
+
+**Building**
+```
+npm run build-windows
+```
+
+**Watching**
+```
+npm run watch-windows
 ```
 
 ## License
